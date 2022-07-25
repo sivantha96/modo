@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "./components/Header";
 
 function App() {
-  const [url, setUrl] = useState<string>("");
+  const [, setUrl] = useState<string>("");
 
   useEffect(() => {
     const queryInfo = { active: true, lastFocusedWindow: true };
